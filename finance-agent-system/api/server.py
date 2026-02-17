@@ -8,7 +8,7 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-app = FastAPI(title="Finance Multi-Agent System API")
+app = FastAPI(title="Finance Multi-Agent System APIs")
 planner = Planner()
 blackboard = GlobalBlackboard()
 
